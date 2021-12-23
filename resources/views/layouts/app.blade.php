@@ -32,7 +32,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    @if(Auth::user()->id)
+                   
+                    @if(Auth::id())
                     <ul class="navbar-nav" style=" margin: auto;width: 50%;padding: 10px; ">
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown2" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
